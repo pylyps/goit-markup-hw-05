@@ -607,6 +607,8 @@
       </div>
     </footer>
 
+    <!-- Модальне вікно -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="cls-btn" data-modal-close>
@@ -614,8 +616,38 @@
             <use href="./images/icon.svg#close_btn"></use>
           </svg>
         </button>
+        <div>
+          <p class="modal-head">Оставьте свои данные, мы вам перезвоним</p>
+        </div>
+        <form class="modal-form">
+          <label class="modal-name">
+            <span>Имя</span>
+            <input type="text" name="name" />
+          </label>
+          <label class="modal-phone">
+            <span>Телефон</span>
+            <input type="tel" name="phone" />
+          </label>
+          <label class="modal-email">
+            <span>Почта</span>
+            <input type="email" name="email" />
+          </label>
+          <label class="modal-text">
+            <span>Комментарий</span>
+            <textarea name="text" cols="30" rows="10"></textarea>
+          </label>
+          <label class="modal-checkbox">
+            <input type="checkbox" name="checkbox" />
+            ><span
+              >Соглашаюсь c рассылкой и принимаю <a>Условия договора </a></span
+            >
+          </label>
+          <botton class="button primary modal-botton" type="submit"
+            >Заказать услугу</botton
+          >
+        </form>
       </div>
+      <script src="./js/modal.js"></script>
     </div>
-    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -713,7 +713,7 @@ transform: translate(0%);
 overflow: hidden;
 }
 
-/* modal window */
+/* Модальне вікно */
 
 .backdrop{
 position: fixed;
@@ -770,4 +770,25 @@ position: absolute;
 top: 8px;
 right: 8px;
 cursor: pointer;
+}
+
+.modal-head {
+padding: 40px 40px 12px 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text-main);
+    background-color: tomato;
+}
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    
 }
